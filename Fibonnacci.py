@@ -1,0 +1,12 @@
+num=int(input("Enter the number "))
+a=0
+b=1
+i=1
+c=0
+print(a,",",b,end=",")
+while i<=num:
+    c=a+b
+    a=b
+    b=c
+    print(c,end=",")
+    i+=1
